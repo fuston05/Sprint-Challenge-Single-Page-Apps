@@ -3,11 +3,12 @@ import { Route } from 'react-router-dom';
 import Header from "./components/Header.js";
 import CharacterList from './components/CharacterList';
 import WelcomePage from './components/WelcomePage';
+import {MainCont} from './components/styles';
 
 export default function App() {
 
   return (
-    <main>
+    <MainCont>
       <Route path='/'>
         <Header />
       </Route>
@@ -17,6 +18,6 @@ export default function App() {
       <Route path='/characters'>
         <CharacterList />
       </Route>
-    </main>
+    </MainCont>
   );
 }

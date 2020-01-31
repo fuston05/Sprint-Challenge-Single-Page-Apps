@@ -1,4 +1,5 @@
 import React from "react";
+import {FormLabel, FormInput} from './styles';
 
 export default function SearchForm(props) {
 
@@ -11,14 +12,14 @@ export default function SearchForm(props) {
   return (
     <section className="search-form">
       <form>
-        <label>Search:
-          <input
+        <FormLabel>Search:
+          <FormInput
             value={props.searchTerm}
             type='text'
             onChange={handleChange}
             placeholder='Search'
           />
-        </label>
+        </FormLabel>
       </form>
     </section>
   );
