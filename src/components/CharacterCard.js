@@ -1,10 +1,12 @@
 import React from "react";
-import { Card, Heading_3, Para } from './styles';
+import { Card, Heading3, Para } from './styles';
+
+
 
 export default function CharacterCard({ character }) {
   return (
     <Card className='card'>
-      <Heading_3>{character.name}</Heading_3>
+      <Heading3>{character.name}</Heading3>
       <img alt= {character.name} src= {character.image} />
       <Para><b>Sex:</b> {character.gender}</Para>
       <Para><b>Life Status:</b> {character.status}</Para>

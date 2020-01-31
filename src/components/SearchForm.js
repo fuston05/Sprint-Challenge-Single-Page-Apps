@@ -11,7 +11,7 @@ export default function SearchForm(props) {
   return (
     <section className="search-form">
       <form>
-        <FormLabel>Search:
+        <FormLabel>Search By Name:
           <FormInput
             value={props.searchTerm}
             type='text'

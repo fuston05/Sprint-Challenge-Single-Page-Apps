@@ -73,12 +73,13 @@ const Card = styled.div`
   border-radius: 5px;
   box-shadow: 2px 2px 4px #000;
   padding: 1%;
+  opacity: 0;
   margin: 0 0 2%  0;
   text-align: center;
   background-color: darkGoldenRod;
 `;
 
-const Heading_3 = styled.h3`
+const Heading3 = styled.h3`
   font-size: 1.3rem;
   color: #555; 
   width: 100%;
@@ -103,7 +104,7 @@ const FormInput = styled.input`
 
 export { 
   Card, 
-  Heading_3, 
+  Heading3, 
   MainCont, 
   Head, 
   WelcomeSection, 
