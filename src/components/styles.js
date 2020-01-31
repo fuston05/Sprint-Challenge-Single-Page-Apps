@@ -73,7 +73,6 @@ const Card = styled.div`
   border-radius: 5px;
   box-shadow: 2px 2px 4px #000;
   padding: 1%;
-  opacity: 0;
   margin: 0 0 2%  0;
   text-align: center;
   background-color: darkGoldenRod;

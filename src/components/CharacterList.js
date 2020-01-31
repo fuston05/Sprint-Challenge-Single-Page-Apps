@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import CharacterCard from './CharacterCard';
 import SearchFrom from './SearchForm';
+import { gsap } from 'gsap';
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
@@ -18,6 +19,7 @@ export default function CharacterList() {
       .then(res => {
         setData(res.data.results);
         setSearchResults(res.data.results);
+        gsap.from(".card", { duration: 2, x: 'random(-300, 300)', ease: 'bounce'});
       })
       .catch(err => { console.log(err); })
   }, []);
@@ -28,6 +30,7 @@ export default function CharacterList() {
       return ele.name.toLowerCase().includes(searchTerm.toLowerCase())
     })
     setSearchResults(results);
+    gsap.from(".card", { duration: 2, x: 'random(-300, 300)', ease: 'bounce'});
   }, [searchTerm, data])
 
   return (

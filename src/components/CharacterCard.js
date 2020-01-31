@@ -1,8 +1,6 @@
 import React from "react";
 import { Card, Heading3, Para } from './styles';
 
-
-
 export default function CharacterCard({ character }) {
   return (
     <Card className='card'>
