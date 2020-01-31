@@ -106,7 +106,7 @@ Complete search component to your list views.
 - [ ] https://rickandmortyapi.com/api/episode/ - docs
 
 - [ ]  Wire up the `onSearch(name)` callback prop to support [querying the API](https://rickandmortyapi.com/documentation/#filter-characters). (To search for `rick`, you would request `/api/character/?name=rick`.)
-- [ ]  Animate page transition and/or card loading.
+- [x]  Animate page transition and/or card loading.
 - [ ]  Persist search form field(s) by using the custom hook `useLocalStorage`.
 - [ ]  Add error handling for all async (axios/AJAX) calls. (Including some styled UI.)
 - [ ]  Add a "details view" and route to show more details for each type of record. (Hint: Look into route parameters or nested routes.)
@@ -122,9 +122,9 @@ Complete search component to your list views.
 
 > Follow these steps to complete your project:
 
-- [ ]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
-- [ ]  Add your TL as a Reviewer on the Pull Request.
-- [ ]  TL then will count the HW as done by merging the branch into master.
+- [x]  Submit a Pull Request to merge `<firstName-lastName>` branch into master (student's repo).
+- [x]  Add your TL as a Reviewer on the Pull Request.
+- [x]  TL then will count the HW as done by merging the branch into master.
 
 <!-- TLs: NOTE: use resources to coach, or share over zoom - avoid sharing entire solution folder. Share preview links if available. -->
 
