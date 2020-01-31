@@ -1,12 +1,20 @@
 import React from "react";
-import {Card, Heading_3} from './styles';
+import { Card, Heading_3, Para } from './styles';
 
-export default function CharacterCard({character}) {
+export default function CharacterCard({ character }) {
   return (
-    <Card className= 'card'>
+    <Card className='card'>
       <Heading_3>{character.name}</Heading_3>
-      <p>{character.gender}</p>
-      <p>{character.species}</p>
+      <img alt= {character.name} src= {character.image} />
+      <Para><b>Sex:</b> {character.gender}</Para>
+      <Para><b>Life Status:</b> {character.status}</Para>
+
+      {/* if character has a type then display it */}
+      {character.type ? (<Para><b>Type:</b> {character.type}</Para>): null}
+    
+      <Para><b>Species:</b> {character.species}</Para>
+      <Para><b>Home Location:</b> {character.location.name}</Para>
+      <Para><b>Appeared in {`${character.episode.length} episodes!`}</b></Para>
     </Card>
 
   );

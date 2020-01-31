@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import {Image, WelcomeSection, WelcomeHeader, Button} from './styles';
+import { Image, WelcomeSection, WelcomeHeader, Button } from './styles';
 
 export default function WelcomePage() {
   return (

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 // header
-const Head= styled.header`
+const Head = styled.header`
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   padding: 1%;
@@ -17,11 +17,11 @@ const Head= styled.header`
 `;
 
 // ***** welcome page
-const Image= styled.img`
+const Image = styled.img`
   width: 60%;
 `;
 
-const WelcomeSection= styled.section`
+const WelcomeSection = styled.section`
   height: 100%;
   width: 100%;
   display: flex;
@@ -30,7 +30,7 @@ const WelcomeSection= styled.section`
   align-items: center;
 `;
 
-const WelcomeHeader= styled.header`
+const WelcomeHeader = styled.header`
   width: 100%;
   padding: 1%;
   display: flex;
@@ -39,7 +39,7 @@ const WelcomeHeader= styled.header`
   align-items: center;
 `;
 
-const Button= styled.button`
+const Button = styled.button`
   font-size: 1.2rem;
   padding: 2px 5px;
   border-radius: 5px;
@@ -57,7 +57,7 @@ const Button= styled.button`
 
 // ******** Appp
 
-const MainCont= styled.div`
+const MainCont = styled.div`
   width: 85vw;
   min-height: 80vh;
   max-width: 1024px;
@@ -68,7 +68,7 @@ const MainCont= styled.div`
 `;
 
 // ******** CharacterCard
-const Card= styled.div`
+const Card = styled.div`
   border: 1px solid #333;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #000;
@@ -78,22 +78,22 @@ const Card= styled.div`
   background-color: darkGoldenRod;
 `;
 
-const Heading_3= styled.h3`
+const Heading_3 = styled.h3`
   font-size: 1.3rem;
   color: #555; 
   width: 100%;
   text-align: center;
 `;
 
-const Para= styled.p`
+const Para = styled.p`
   color: #333;
 `;
 
-const FormLabel= styled.label`
+const FormLabel = styled.label`
   font-size: 1.2rem;
 `;
 
-const FormInput= styled.input`
+const FormInput = styled.input`
   font-size: 1.2rem;
   padding: 2px;
   margin: 0 0 20px 10px;
@@ -101,4 +101,15 @@ const FormInput= styled.input`
 // *******************
 
 
-export {Card, Heading_3, MainCont, Head, WelcomeSection, WelcomeHeader, Button, Image, FormLabel, FormInput};
+export { 
+  Card, 
+  Heading_3, 
+  MainCont, 
+  Head, 
+  WelcomeSection, 
+  WelcomeHeader, 
+  Button, 
+  Image, 
+  FormLabel, 
+  FormInput,
+  Para };
